@@ -21,7 +21,7 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
        → Se você experimentar um salto repentino acentuado na demanda, seus recusos implantados poderiam ser expandidos(Automaticamente ou Manualmente).
         ► EX: Adição de VMs ou Containers por meio de expansão.
         Caso ocorra a diminuição da carga, de forma automática ou manual, serão reduzidos os HOSTS.
-OBS:
+###### OBS:
 |ESCALABILIDADE      |ELASTICIDADE                     |
 |--------------------|---------------------------------|
 |Aumento vertical  ↨ |Aumento horizontal ↔             |
@@ -67,4 +67,13 @@ OBS:
 		→ Menor responsabilidade compartilhada.
 #### _1.3 - MODELO DE RESPONSABILIDADE COMPARTILHADA_
 ##### 1.3.1 -  Provedor x Usuário
+
+
+### **_2 - COMPONENTES DE ARQUITETURA DO AZURE_**
+###### | REGIÕES E ZONAS DE DISPONIBILIDADE  |  ASSINATURAS E GRUPOS DE RECURSOS. | 
+#### _2.1 Regiões_
+		→ O Azure é o provedor com mais regiões globais de nuvem, 60 regiões representando 140 países. 
+		→ Região = 1 ou mais datacenters muito próximos
+		→ Fornecem flexibilidade e escala para redução de latência do cliente
+		→ As regiões também servem para governança de dados (LGPD)
  
