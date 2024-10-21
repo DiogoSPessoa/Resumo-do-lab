@@ -70,10 +70,14 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
 
 
 ### **_2 - COMPONENTES DE ARQUITETURA DO AZURE_**
-###### | REGIÕES E ZONAS DE DISPONIBILIDADE  |  ASSINATURAS E GRUPOS DE RECURSOS. | 
+######  *REGIÕES E ZONAS DE DISPONIBILIDADE  |  ASSINATURAS E GRUPOS DE RECURSOS.*  
 #### _2.1 Regiões_
 		→ O Azure é o provedor com mais regiões globais de nuvem, 60 regiões representando 140 países. 
-		→ Região = 1 ou mais datacenters muito próximos
+		→ Região = 1 ou mais datacenters muito próximos(3 Datacenters por região = Zona de Disponibilidade)
 		→ Fornecem flexibilidade e escala para redução de latência do cliente
-		→ As regiões também servem para governança de dados (LGPD)
+		→ As regiões também servem para controle de governança de dados (LGPD)
+
+#### _2.2 Zonas de Disponibilidade_
+		→  Conjunto de 3 DataCentes próximos e conectados(Baixa latência e alta performance) com segurança contra desastres e falhas.
+		→ 
  
