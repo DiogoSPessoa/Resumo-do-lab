@@ -138,3 +138,48 @@ _Azure China_
 						→ Grupos de Recursos
 								→ SQL
 
+### **_6 - COMPUTAÇÃO E REDE_**
+#### **_6.1 - SERVIÇOS DE COMPUTAÇÃO DO AZURE_**
+→ A __Computação do Azure__ é um serviço sob demanda que fornece recursos de computação, como discos, processadores, memória, rede e sistemas operacionais.  
+#### **_6.2 - MAQUINAS VIRTUAIS DO AZURE_**
+→ As máquinas virtuais do Azure (VMs) são emulações de software de computadores físicos.      
+→ Inclui o processador virtual, memória, armazenamento e rede.  
+→ Ofertas de IaaS que oferece personalização e controle total. 
+→ __Conjuntos de Dimensionamento de VMs =__ Os conjuntos de dimensionamento oferecem uma oportunidade de balanceamento de carga para dimensionar os recursos automaticamente.   
+→ __Conjunto de Disponibilidade de VM =__ As VMs são instaladas em Racks diferentes, a fim de possibilitar uma redundância  
+► Domínio de falha = Diferentes Racks(3 Racks)  
+► Domínio de Atualização = Diferentes VMs, no mesmo Rack(2 VMs por Rack).   
+#### **_6.3 - ÁREA DE TRABALHO VIRTUAL DO AZURE_**
+→  A __Área de Trabalho Virtual do Azure__ é uma virtualização de área de trabalho e aplicativo executada na nuvem.  
+ - Crie um ambiente completo de virtualização da área de trabalho sem precisar executar outros servidores de gateway.
+ - Reduza o risco de que o recurso seja deixado para trás.
+ - Implantações reais de várias sessões.
+#### **_6.4 - SERVIÇOS DE CONTÊINERES  DO AZURE_**
+→ Os __Contêineres__ do Azure fornecem um ambiente leve e virtualizado que não exige o gerenciamento do sistema operacional e pode responder à alterações sob demanda.  
+→ __Instâncias de Contêiner do Azure:__ Uma oferta de PaaS que executa um contêiner ou pod de contêineres no Azure.   
+→ __Aplicativos de Contêiner do Azure:__ Uma oferta de PaaS, como instâncias de contêineres, que pode balancear a carga e escalar.  
+→ __Serviços de Kubernetes do Azure:__ Um serviço de orquestração para contêineres com arquiteturas distribuídas e grandes volumes de contêineres.  
+#### **_6.5 - AZURE FUNCTIONS_**
+→ Uma oferta de PaaS que dá suporte a operações de computação sem servidor.  
+→ Código baseado em eventos é executado quando chamado, sem exigir uma infraestrutura de servidor durante períodos inativos.  
+#### **_6.6 - COMPARAÇÃO  ENTRE AS OPÇÕES DE COMPUTAÇÃO DO AZURE_**
+##### **_6.6.1 - MÁQUINAS VIRTUAIS_**
+- Servidor baseado em nuvem que dá suporte a ambientes Windows ou Linux
+- Útil para migrações de Lift-and-Shift(mover o físico para cloud) para a nuvem.
+- Pacote do Sistema Operacional completo, incluindo o sistema operacional do HOST.
+##### **_6.6.2 - ÁREA DE TRABALHO VIRTUAL_**
+- Fornece uma experiência de área de trabalho do Windows baseada em Nuvem.
+- Aplicativos dedicados para conexão e uso ou acessíveis de qualquer navegador moderno.
+- O logon de vários clientes permite que vários usuários façam logon no mesmo computador ao mesmo tempo, totalmente independentes.
+##### **_6.6.3 - CONTÊINERES_**
+- Ambiente leve e em miniatura adequado para a execução de microsserviços.
+- Projetado para escalabilidade e resiliência por meio da orquestração.
+	- Via Amazon Kubernets Service
+- Os aplicativos e serviços são empacotados em um contêiner que fica na parte superior do Sistema Operacional do HOST. Vários contêineres podem ficar em um sistema operacional do HOST.
+#### **_6.7 - SERVIÇOS DE APLICATIVOS DO AZURE_**
+→ Consiste em uma plataforma totalmente gerenciada para criar, implantar e dimensionar aplicativos Web e APIs rapidamente.  
+-  Focado principalmente em questão de versionamento de aplicativos, você pode ter mais de uma versão e migrar rapidamente a produção e teste.
+
+
+→ Trabalha com .NET, .NET Core, Node.js, JAVA, Python ou PHP.  
+→ Oferta de PaaS com requisitos de nível corporativo de desempenho, segurança conformidade.  
