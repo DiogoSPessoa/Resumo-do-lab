@@ -183,3 +183,22 @@ _Azure China_
 
 → Trabalha com .NET, .NET Core, Node.js, JAVA, Python ou PHP.  
 → Oferta de PaaS com requisitos de nível corporativo de desempenho, segurança conformidade.  
+#### **_6.8 - SERVIÇOS DE REDE DO AZURE_**
+##### **_6.8.1 - Rede Virtual do Azure(VNet)_**
+→ a __Rede Virtual do Azure (VNet)__ permite que os recursos do Azure se comuniquem uns com os outros, com a internet e com as redes locais.  
+→ Pontos de extremidade públicos, acessíveis de qualquer lugar na Internet.  
+→ Pontos de extremidade privados, acessíveis somente de dentro da sua rede
+→ VNets não se comunicam por padrão(Segurança contra ataques).  
+→ As sub-redes virtuais segmentam sua rede para atender às suas necessidades.  
+→ O emparelhamento de rede conecta suas redes privadas diretamente.  
+##### **_6.8.2 - Gateway de VPN_**
+→ O Gateway de VPN é usado para enviar Tráfego criptografado entre uma rede virtual do Azure e uma no local pela internet pública.  
+→ Site-to-Site.  
+##### **_6.8.3 - ExpressRoute_**
+→ Ligação direta, "Fibra apagada", para o DataCenter Azure.  
+→ Alto custo. Todavia, alta performance e segurança.  
+
+##### **_6.8.3 - DNS do Azure_**
+→ Confiabilidade e desempenho aproveitando uma rede global de servidores de nome DNS usando a rede Anycast.  
+→ A segurança do DNS do Azure baseia-se no gerenciador de recursos do Azure, habilitando o controle de acesso baseado em função e o monitoramento e o registro em Log.
+→ Os registros de alias dão suporte a conjuntos de registro de alias para apontar diretamente para um recurso do Azure.  
