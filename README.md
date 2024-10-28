@@ -7,7 +7,7 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
 ### **_1 - CONCEITOS DE NUVEM_**
 #### _1.1 - BENEFÍCIOS DA NUVEM_
 ##### 1.1.1 - ALTA DISPONIBILIDADE
-        Se concentra em garantir a disponibilidade máxima, independente de interrupções ou eventos que possam ocorrer. 
+Se concentra em garantir a disponibilidade máxima, independente de interrupções ou eventos que possam ocorrer. 
 ![image](https://github.com/user-attachments/assets/73edf277-461a-4413-b693-d65ab6fa59c0)
 
 ##### 1.1.2 - ESCALABILIDADE
@@ -280,9 +280,60 @@ _Azure China_
 ---
 ## IDENTIDADE, ACESSO E SEGURANÇA
 ### **_9 - ID DO MICROSOFT ENTRA_**
+
+#### **_9.1 -  MICROSOFT ENTRA ID_**
 → O __Microsoft Entra ID__ é o serviço de gerenciamento de identidade e acesso baseado em nuvem do Microsoft Azure.
 - Autenticação ( Os funcionários entram para acessar os recursos).  
 - Logon Único (SSO).
 - Gerenciamento de aplicativos.
 - Negócios para Negócios (B2B).
-- Gerenciamento de Dispositivos. 
+- Gerenciamento de Dispositivos.  
+#### **_9.2 -  AZURE DATA BOX_**
+-	Obtenha os benefícios dos serviços de domínio baseados em nuvem sem gerenciar os controladores de domínio.
+-	Execute aplicativos herdados (que não podem utilizar os padrões de autenticação modernos) na nuvem.
+-	Sincronizar automaticamente a partir do Microsoft Entra ID.  
+#### **_9.2 -  AUTENTICAÇÃO X AUTORIZAÇÃO_**
+##### **_9.2.1 - Autenticação_**
+- Identifica a pessoa ou serviço buscando acesso a um recurso.  
+- Solicita credenciais de acesso legítimo.  
+- Base para criar princípios de identidade e controle de acesso seguros.   
+##### **_9.2.2 - Autorização_**
+- Determina o nível de acesso de uma pessoa ou serviço autenticado.  
+- Define quais dados eles podem acessar e o que podem fazer com eles.
+
+#### **_9.3 -  AUTENTICAÇÃO MULTIFATOR (MFA)_**
+→ Fornece uma segurança adicional para as identidades, exigindo dois ou mais elementos para autenticação completa.  
+> Algo que você sabe ←→ Algo que você possui ←→ Algo que você é
+> Usuário + Senha ← - - → Apk | Chave ← - - - - - - - → Identificação final
+
+ #### **_9.4 -  B2B DO MICROSOFT ENTRA EXTERNAL ID_**
+ → Parceiros, fornecedores, terceirizados.... que usam convite ou inscrição para autoatendimento do ID Externa do Microsoft Entra.  
+
+#### **_9.5 - ACESSO CONDICIONAL_**
+- Associação de usuário ou grupo
+- Local do IP
+- Dispositivo
+- Aplicativo
+- Detecção de Risco.
+#### **_9.6 - CONTROLE DE ACESSO BASEADO EM FUNÇÃO_**
+- Gerenciamento de acesso de granularidade fina.
+- Divida as tarefas dentro da equipe e conceda somente a quantidade de acesso de que os usuários precisam para trabalhar.
+- Habilite o acesso ao portal do Azure e o controle de acesso aos recursos.
+
+#### **_9.7-  CONFIANÇA ZERO_**
+→ Restringe tudo e todos, dando apenas o acesso estritamente necessário para o usuário.
+→ Evitar incidentes, e permissões limitadas.
+#### **_9.8-  PROTEÇÃO COMPLETA_**
+→ Feita por camadas;
+> Segurança física   -> Identidade e acesso -> Perímetro -> Rede -> Computação -> Aplicativos -> Dados
+-   Uma abordagem em camadas para proteger sistemas de computador.   
+-   Fornece vários níveis de proteção.
+-   Ataques contra uma camada são isolados das camadas subsequentes.
+
+#### **_9.9 - MICROSOFT DEFENDER PARA NUVEM_**
+→ O Microsoft Defender para Nuvem é um serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure e locais.
+#### **_9.10 - RECURSOS DO AZURE_**
+- Fornece recomendações de segurança.
+- Detectar e bloquear malware.
+- Analisar e identificar ataques potenciais.
+- Controle de acesso just-in-time para portas.
